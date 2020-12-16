@@ -4,15 +4,13 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Microsoft.UI.Xaml.Controls.Primitives"
     xmlns:contract4Present="http://schemas.microsoft.com/winfx/2006/xaml/presentation?IsApiContractPresent(Windows.Foundation.UniversalApiContract,4)"
-    xmlns:contract6Present="http://schemas.microsoft.com/winfx/2006/xaml/presentation?IsApiContractPresent(Windows.Foundation.UniversalApiContract,6)"
-    xmlns:contract6NotPresent="http://schemas.microsoft.com/winfx/2006/xaml/presentation?IsApiContractNotPresent(Windows.Foundation.UniversalApiContract,6)"
     xmlns:contract7Present="http://schemas.microsoft.com/winfx/2006/xaml/presentation?IsApiContractPresent(Windows.Foundation.UniversalApiContract,7)"
     xmlns:contract7NotPresent="http://schemas.microsoft.com/winfx/2006/xaml/presentation?IsApiContractNotPresent(Windows.Foundation.UniversalApiContract,7)">
 
     <Style x:Key="DefaultCommandBarFlyoutCommandBarStyle" TargetType="local:CommandBarFlyoutCommandBar">
-        <Setter Property="Background" Value="{ThemeResource SystemControlTransientAcrylicElementBrush}" />
-        <Setter Property="Foreground" Value="{ThemeResource SystemControlForegroundBaseHighBrush}" />
-        <Setter Property="BorderBrush" Value="{ThemeResource SystemControlTransientBorderBrush}" />
+        <Setter Property="Background" Value="{ThemeResource CommandBarFlyoutBackground}" />
+        <Setter Property="Foreground" Value="{ThemeResource CommandBarFlyoutForeground}" />
+        <Setter Property="BorderBrush" Value="{ThemeResource CommandBarFlyoutBorderBrush}" />
         <Setter Property="BorderThickness" Value="{ThemeResource CommandBarFlyoutBorderThemeThickness}" />
         <Setter Property="IsTabStop" Value="False" />
         <Setter Property="VerticalAlignment" Value="Top" />
